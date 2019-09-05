@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/niebo3"
+    android:orientation="vertical"
+    tools:context="com.example.weatherapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="80sp"
+        android:layout_marginStart="496dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtLastUpdate"
+        android:layout_width="642dp"
+        android:layout_height="24dp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#cccccc"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#cccccc"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="430dp"
+        android:layout_height="38dp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#cccccc"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtHumidity"
+        android:layout_width="424dp"
+        android:layout_height="41dp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="168dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="436dp"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="224dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCelsius"
+        android:layout_width="441dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="268dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F51384"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
